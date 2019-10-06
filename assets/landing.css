@@ -1,0 +1,108 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+.navbar {
+    box-shadow: 0 4px 25px 0 rgba(0,0,0,.1);
+    padding: 1% 0%;
+    font-size: 1.2em;
+}
+.navbar-brand {
+    min-height: 55px;
+    padding: 0 15px 5px;
+}
+.navbar-nav {
+    padding: 1% 4.5%;
+}
+.navbar-light .navbar-nav .nav-link:hover, 
+.navbar-light .navbar-nav .active>.nav-link, 
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .nav-link.show, 
+.navbar-light .navbar-nav .show>.nav-link  {
+    color: #FBA26E;
+}
+#home {
+    background: url(images/intro-bg.jpg) no-repeat center center fixed;
+    /* filter: opacity(0.2);
+    -webkit-filter: opacity(0.2); */
+    display: table;
+    height: 70%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    margin-bottom: 10em;
+}
+.overlay-color{
+    background-color: rgba(7, 23, 55, 0.78);
+}
+.landing-text {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(144, 110, 251, 0.27); /* Black w/opacity/see-through */
+}
+.landing-text h1 {
+    font-size: 300%;
+    font-weight: 700;
+}
+
+.landing-text .card {
+    background-color: inherit;
+    border: none;
+}
+.col-sm-6 .card {
+    background-color: #ffffff1f;
+}
+.btn-primary {
+    background-color: #FBA26E;
+    border-color: #FBA26E;
+}
+a:hover {
+    color: lightgrey;
+}
+.card-spacing {
+    padding-bottom: 20px;
+}
+.padding {
+    padding: 80px 0;
+}
+#fixed {
+    background: url(images/slack-bg.jpg) no-repeat center center fixed;
+    display: table;
+    height: 60%;
+    width: 100%;
+    background-size: cover;
+    margin-bottom: 10em;
+}
+.col-sm-6, .container h3{
+    color: white;
+}
+
+.img-thumbnail {
+    margin-top: 10px;
+    background-color: #fff0;
+    border: none;
+    padding: 0;
+    max-width: 12%;
+}
+.overlay{
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(144, 110, 251, 0.27); /* Black w/opacity/see-through */
+}
+footer {
+    width: 100%;
+    background-color: #906efb33;
+    padding: 2% 5% 2% 5%;
+    color: #000000;
+}
+.fa {
+    padding: 15px;
+    font-size: 25px;
+    color: #00000087;
+}
+.fa:hover {
+    color:#FBA26E;
+    text-decoration: none;
+}
